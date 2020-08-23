@@ -1,0 +1,101 @@
+
+/**
+ * Media Query Style: My website;
+ **/
+
+ * {
+    box-sizing: border-box;
+  }
+  
+/* Browser widths above 993px */
+
+  @media (min-width: 993px) {
+
+    .container {
+      /* Box-model */
+     padding-left: 60px;
+     padding-top: 25px;
+     margin:0;
+    }
+    /* Name left margin */
+    .navbar-brand {
+        margin-left: 15px;
+    }
+  
+  }
+
+  /* Browser widths above 992px */
+
+  @media screen and (max-width: 992px) {
+
+    .container {
+      /* Box-model */
+      padding-left: 50px;
+      padding-top: 20px;
+    }
+  
+  }
+
+
+/* Width at 768px and below */
+
+@media screen and (max-width: 768px) {
+    .container {
+        /* Box-model */
+        padding-left: 30px;
+        padding-top: 10px;
+      }
+      .navbar-brand {
+        margin-left: 10px;
+    }
+    .card{
+        width: 90%
+    }
+  }
+  
+  
+  /* Width at 400px and below */
+  @media screen and (max-width: 400px) {
+    .container {
+        /* Box-model */
+       
+        padding-top: 5px;
+      }
+      .navbar-brand {
+        margin-left: 5px;
+        font-size: 100%;
+    }
+    .card{
+        width: 95%;
+    }
+  }
+  
+
+  /* Width at 277px and below */
+  @media screen and (max-width: 277px) {
+    .container {
+        /* Box-model */
+        margin-left: 0px;
+        padding-top: 0px;
+    }
+    .container h1{
+        font-size: 26px;
+    }
+      .navbar-brand {
+        margin-left: -8px;
+        font-size: 80%;
+    }
+    .navbar-toggler {
+        margin-left: 0%;
+    }
+
+}
+
+
+/* Width at 234px and below */
+@media screen and (max-width: 234px) {
+    .navbar-toggler {
+        margin-left: 65%;
+    }
+
+}
