@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Copyright 2020 Logique.com All rights reserved. -->
+<!-- Logique.com - Contact webpage -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the webpage -->
+    <title>Contact Henry Logique</title>
+
+    <!-- Meta Description: 130 chracters -->
+    <meta name="description"
+        content="henry jean logique, about, portfolio, contact, web e-Learning application programmer, graphic designer, multimedia, visual effects">
+
+    <!-- Adjust for different devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Reset, Bootstrap, main Style and Responsive CSS files -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar  navbar-expand-lg navbar-fixed-top navbar-dark bg-dark">
+
+        <!-- My Name as my logo  -->
+            <a class="navbar-brand" href="index.html">HENRY JEAN LOGIQUE</a>
+        
+        <!-- Navigation Buttons -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation Button Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br><br>
+
+    <!-- Main content of the Contact page -->
+    <div class="container">
+        <!-- Section: Contact -->
+        <section class="mb-4">
+
+            <!-- Section heading -->
+            <div class="page-header">
+                <h1>Contact</h1>
+            </div>
+
+            <!-- Section description -->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-9 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                        <!-- Section divider line -->
+                        <hr class="style">
+
+                        <!-- Grid row -->
+                        <div class="row">
+
+                            <!-- Grid column includes the form's Name entry field-->
+                            <div class="col-md-9">
+                                <div class="md-form mb-0">
+                                    <label for="name" class="">Name</label>
+                                    <input type="text" id="name" name="name" class="form-control" value="Name">
+                                </div>
+                            </div>
+
+                            <!-- Grid column includes the form's Email entry field -->
+                            <div class="col-md-9">
+                                <div class="md-form mb-0">
+                                    <br>
+                                    <label for="email" class="">Email</label>
+                                    <input type="text" id="email" name="email" class="form-control" value="Email">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- Grid row -->
+                        <div class="row">
+
+                            <!-- Grid column includes the form's Message entry box -->
+                            <div class="col-md-9">
+                                <br>
+                                <div class="md-form">
+                                    <label for="message">Message</label>
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea" placeholder="Message"></textarea>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </form>
+                    <br>
+
+                    <!-- Form Submit Button -->
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-secondary"
+                            onclick="document.getElementById('contact-form').submit();">Submit</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+
+                <!-- Grid column -->
+                <div class="col-md-3 text-center">
+                    <ul class="list-unstyled mb-0">
+                        <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        </li>
+                        <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        </li>
+                        <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+        <!-- Section: Contact -->
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-muted">Copyright © 2020 Logique.com, All rights reserved.</footer>
+
+    <!-- JQuery and Bootstrap JScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

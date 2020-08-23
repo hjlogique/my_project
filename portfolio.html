@@ -2,14 +2,14 @@
 <html lang="en">
 
 <!-- Copyright 2020 Logique.com All rights reserved. -->
-<!-- Logique.com - About webpage -->
+<!-- Logique.com - Portfolio webpage -->
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Title of the webpage -->
-    <title>About Henry Logique</title>
+    <title>Portfolio of Henry Logique</title>
 
     <!-- Meta Description: 130 chracters -->
     <meta name="description"
@@ -32,7 +32,7 @@
     <nav class="navbar  navbar-expand-lg navbar-fixed-top navbar-dark bg-dark">
 
         <!-- My Name as my logo  -->
-        <a class="navbar-brand" href="#">HENRY JEAN LOGIQUE</a>
+        <a class="navbar-brand" href="index.html">HENRY JEAN LOGIQUE</a>
 
         <!-- Navigation Buttons -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -43,50 +43,59 @@
         <!-- Navigation Button Links -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About <span class="sr-only"></span></a>
+                </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only"></span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact <span class="sr-only"></span></a>
+                    <a class="nav-link" href="contact.html">Contact<span class="sr-only"></span></a>
                 </li>
             </ul>
         </div>
     </nav>
-    <br> <br>
 
-    <!-- Main content of the About Me page -->
+    <br>
+
+    <!-- Main content of the Portfolio page contains images displayed in the Bootstrap Card Column Layout  -->
     <div class="container">
-        <div class="row">
-            <div class="col-md-9">
-                <!-- Grid row -->
-                <div class="row">
-                    <!-- Grid column -->
-                    <div class="col-md-12">
-                        <!-- Heading Section -->
-                        <div class="page-header">
-                            <h1>About me</h1>
-                        </div>
-                        <!-- Divider Line -->
-                    </div>
-                    <!-- Grid column -->
-                    <div class="col-md-12">
-                        <!-- Section divider line -->
-                        <hr class="style">
-                        <!-- My image -->
-                        <img id="my_image" src="assets/images/my_pic1.png" alt="An image of me wearing a light blue shirt and a dark blue tie"  />
 
-                        <p> I am a Web/E-Learning Application Programmer, working as a contarctor. My work experience is
-                            in web design, programming, multimedia, graphic design and software quality assurance.
-                            My acadmic backgrounds are MA in Visual Effects, MS in Biomedical Engineering, BS in
-                            physics and associate degree in Machinary Design. I have certificates in Web Design and
-                            application Programming and studied Game programming for two symesters. I am currently
-                            studying Full Stack Web Development at GW Code BootCamp. My interests are: using
-                            programming in 3D Visualzation, Virtual and Augmented Reality, Simulation and Artificial
-                            Intelligence.
-                        </p>
+        <!-- Heading -->
+        <div class="page-header">
+            <h1 id="portfolio_title">Portfolio</h1>
+        </div>
+        <!-- Grid row -->
+        <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-9">
+                <hr class="style">
+                </hr> <!-- Divider Line -->
+                <!-- Card Column Layout-->
+                <div class="card-columns">
+                    <div class="card">
+                        <img src="assets/images/img6.png" class="card-img-top"
+                            alt="Image artwork 1 displays three alien space crafts flying over the sea in an early morning.">
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/img1.png" class="card-img-top"
+                            alt="Image artwork 2 displays the bluish surface of an alien ship in the spacships, while it is in an inactive state.">
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/img2.png" class="card-img-top"
+                            alt="Image artwork 3 displays three redish alien probes in an alien planet.">
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/img3.png" class="card-img-top"
+                            alt="Image artwork 4 displays the glowing surface of an alien spacships in the space, while it is in the active state.">
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/img4.png" class="card-img-top"
+                            alt="Image artwork 5 displays many insect like alien spacships passing through a gate in the ocean.">
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/img5.png" class="card-img-top"
+                            alt="Image artwork 6 displays three goldish space crafts flying over the surface of an alien planet.">
                     </div>
                 </div>
             </div>
@@ -106,7 +115,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
-
 </body>
 
 </html>
